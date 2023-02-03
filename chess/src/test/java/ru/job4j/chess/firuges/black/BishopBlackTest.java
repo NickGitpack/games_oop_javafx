@@ -39,6 +39,7 @@ class BishopBlackTest {
     @Test
     void copy() {
         BishopBlack bishopBlack = new BishopBlack(Cell.C8);
-        assertThat(bishopBlack.position()).isEqualTo(Cell.C8);
+        BishopBlack copy = new BishopBlack(Cell.D7);
+        assertThat(copy.position()).isEqualTo(Cell.D7);
     }
 }
