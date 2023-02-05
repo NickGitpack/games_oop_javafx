@@ -46,7 +46,7 @@ public class LogicTest {
         assertThat(exception.getMessage()).isEqualTo("Mistake");
 
     }
-/*
+
     @Test
     public void whenMove() throws OccupiedCellException, FigureNotFoundException {
         Logic logic = new Logic();
@@ -57,6 +57,4 @@ public class LogicTest {
         logic.move(Cell.C1, Cell.G5);
         assertThat(bishopBlack1.position()).isEqualTo(Cell.C1);
     }
-
- */
 }
